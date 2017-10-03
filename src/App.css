@@ -1,0 +1,179 @@
+
+.App {
+    text-align: center;
+}
+
+.PokeList-item {
+    text-transform: capitalize;
+}
+
+.list-group {
+    margin-top: 25px;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 50px;
+    float: left;
+}
+
+.app-header {
+    background-color: #d82255;
+    height: 70px;
+    padding: 10px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-family: 'Roboto Slap', sans-serif;
+}
+
+.app-title {
+    font-size: 35px;
+    float: left;
+}
+
+.title-wrapper {
+    margin: auto;
+}
+
+.loading {
+    animation: App-logo-spin infinite 5s linear;
+    width: 200px;
+    display: block;
+    margin-left: -100px;
+    margin-right: auto;
+    margin-top: -100px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.list-image {
+    width: 64px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    margin-left: -6px;
+
+}
+
+.PokeList-item {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+/*.Aligner {*/
+/*display: flex;*/
+/*align-items: center;*/
+/*justify-content: center;*/
+/*}*/
+
+.Aligner-item {
+    width: 150px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.type-label {
+    border-radius: 2px;
+    padding: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.grass {
+    background-color: #78c850;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fire {
+    background-color: #f08030;
+}
+
+.flying {
+    background-color: #a890f0;
+}
+
+.water {
+    background-color: #6890f0;
+}
+
+.bug {
+    background-color: #a8b820;
+}
+
+.normal {
+    background-color: #a8a878;
+}
+
+.electric {
+    background-color: #f8d030;
+}
+
+.ground {
+    background-color: #e0c068;
+}
+
+.fairy {
+    background-color: #ffaec9;
+}
+
+.ice {
+    background-color: #98d8d8;
+}
+
+.fighting {
+    background-color: #c03028;
+}
+
+.rock {
+    background-color: #b8a038;
+}
+
+.ghost {
+    background-color: #705898;
+}
+
+.dragon {
+    background-color: #7038f8;
+}
+
+.dark {
+    background-color: #705848;
+}
+
+.steel {
+    background-color: #b8b8d0;
+}
+
+.psychic {
+    background-color: #f85888;
+}
+
+
+HTML, body {
+    font-family: 'Roboto', sans-serif;
+    background: #ecebea;
+    background-image: url(pattern.png);
+    background-repeat: repeat;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
